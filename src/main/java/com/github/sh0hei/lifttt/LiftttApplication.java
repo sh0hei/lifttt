@@ -14,9 +14,8 @@ public class LiftttApplication extends Application<LiftttConfiguration> {
 	}
 	
 	@Override
-	public void initialize(Bootstrap<LiftttConfiguration> arg0) {
+	public void initialize(Bootstrap<LiftttConfiguration> bootstrap) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
@@ -30,5 +29,4 @@ public class LiftttApplication extends Application<LiftttConfiguration> {
 		environment.healthChecks().register("template", healthCheck);
 		environment.jersey().register(resources);
 	}
-
 }
