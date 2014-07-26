@@ -1,0 +1,11 @@
+/* Image style */
+#scrollUp {
+    background: url(top.png) no-repeat;
+    bottom: 20px;
+    right: 20px;
+    width: 38px;    /* Width of image */
+    height: 38px;   /* Height of image */
+    opacity: 0.65;
+    -moz-background-size:cover;
+	background-size:cover;
+}
